@@ -7,5 +7,3 @@ Functions have been written to extract images and draw detected smudges. Briefly
     extractImages(directory) reads tiff images in a specified directory as numpy arrays. 
     detectSmudges(image) returns center coordinates of 6x6 rectangles bounding smudges detected.
     drawSmudges(image, locations) draws rectangles around detected smudges on image. 
-
-"AlgorithmDescription.pdf" contains more information on the algorithm implementation and describes a use case.
